@@ -15,8 +15,8 @@ Thank you for the high quality libraries.
 [detour](https://github.com/darfink/detour-rs) and [retour](https://github.com/Hpmason/retour-rs)
 
 # Download
-[Debug dll](https://github.com/nisetynet/twinkle-crusaders-sbx-tool/raw/main/dlls/sbx_tool_dll_debug.dll)  
-[Release dll](https://github.com/nisetynet/twinkle-crusaders-sbx-tool/raw/main/dlls/sbx_tool_dll_release.dll)  
+[Debug dll](https://github.com/nisetynet/twinkle-crusaders-sbx-tool/raw/master/dlls/sbx_tool_dll_debug.dll)  
+[Release dll](https://github.com/nisetynet/twinkle-crusaders-sbx-tool/raw/master/dlls/sbx_tool_dll_release.dll)  
   
 Debug dll comes with a debug console.  
 Release dll comes with no debug console and better runtime performance and small binary size.
