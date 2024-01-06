@@ -1,0 +1,10 @@
+[workspace]
+members=["winapi-mon-core","winapi-mon-dll"]
+
+[profile.release]
+opt-level = 3 
+overflow-checks = false
+debug = false
+lto= 'fat'
+panic='abort'
+strip = "debuginfo"

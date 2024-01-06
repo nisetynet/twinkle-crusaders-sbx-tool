@@ -1,0 +1,215 @@
+effbool v0.1.0 (/media/ssd2/vmsharedfolder/sbx-tool-main/effbool-main)
+
+imgui-impl-win32-rs v0.1.0 (/media/ssd2/vmsharedfolder/sbx-tool-main/imgui-impl-win32-rs)
+├── imgui v0.10.0
+│   ├── bitflags v1.3.2
+│   ├── cfg-if v1.0.0
+│   ├── imgui-sys v0.10.0
+│   │   ├── cfg-if v1.0.0
+│   │   ├── chlorine v1.0.10
+│   │   └── mint v0.5.9
+│   │   [build-dependencies]
+│   │   └── cc v1.0.83
+│   │       └── libc v0.2.151
+│   ├── mint v0.5.9
+│   └── parking_lot v0.12.1
+│       ├── lock_api v0.4.11
+│       │   └── scopeguard v1.2.0
+│       │   [build-dependencies]
+│       │   └── autocfg v1.1.0
+│       └── parking_lot_core v0.9.9
+│           ├── cfg-if v1.0.0
+│           ├── smallvec v1.11.2
+│           └── windows-targets v0.48.5
+│               └── windows_i686_msvc v0.48.5
+├── imgui-sys v0.10.0 (*)
+├── thiserror v1.0.56
+│   └── thiserror-impl v1.0.56 (proc-macro)
+│       ├── proc-macro2 v1.0.76
+│       │   └── unicode-ident v1.0.12
+│       ├── quote v1.0.35
+│       │   └── proc-macro2 v1.0.76 (*)
+│       └── syn v2.0.48
+│           ├── proc-macro2 v1.0.76 (*)
+│           ├── quote v1.0.35 (*)
+│           └── unicode-ident v1.0.12
+└── winapi v0.3.9
+
+sbx-offset v0.1.0 (/media/ssd2/vmsharedfolder/sbx-tool-main/sbx-offset)
+
+sbx-tool-core v0.1.0 (/media/ssd2/vmsharedfolder/sbx-tool-main/sbx-tool-core)
+├── anyhow v1.0.79
+├── ilhook v2.1.0
+│   ├── bitflags v2.4.1
+│   ├── iced-x86 v1.20.0
+│   │   └── lazy_static v1.4.0
+│   ├── thiserror v1.0.56 (*)
+│   └── windows-sys v0.42.0
+│       └── windows_i686_msvc v0.42.2
+├── nameof v1.2.2
+├── phf v0.10.1
+│   ├── phf_macros v0.10.0 (proc-macro)
+│   │   ├── phf_generator v0.10.0
+│   │   │   ├── phf_shared v0.10.0
+│   │   │   │   └── siphasher v0.3.11
+│   │   │   └── rand v0.8.5
+│   │   │       ├── libc v0.2.151
+│   │   │       ├── rand_chacha v0.3.1
+│   │   │       │   ├── ppv-lite86 v0.2.17
+│   │   │       │   └── rand_core v0.6.4
+│   │   │       │       └── getrandom v0.2.11
+│   │   │       │           ├── cfg-if v1.0.0
+│   │   │       │           └── libc v0.2.151
+│   │   │       └── rand_core v0.6.4 (*)
+│   │   ├── phf_shared v0.10.0 (*)
+│   │   ├── proc-macro-hack v0.5.20+deprecated (proc-macro)
+│   │   ├── proc-macro2 v1.0.76 (*)
+│   │   ├── quote v1.0.35 (*)
+│   │   └── syn v1.0.109
+│   │       ├── proc-macro2 v1.0.76 (*)
+│   │       ├── quote v1.0.35 (*)
+│   │       └── unicode-ident v1.0.12
+│   ├── phf_shared v0.10.0
+│   │   └── siphasher v0.3.11
+│   └── proc-macro-hack v0.5.20+deprecated (proc-macro)
+├── retour v0.4.0-alpha.2 (https://github.com/Hpmason/retour-rs#19f21324)
+│   ├── cfg-if v1.0.0
+│   ├── generic-array v0.14.7
+│   │   └── typenum v1.17.0
+│   │   [build-dependencies]
+│   │   └── version_check v0.9.4
+│   ├── iced-x86 v1.20.0 (*)
+│   ├── libc v0.2.151
+│   ├── mmap-fixed-fixed v0.1.3
+│   │   └── winapi v0.3.9
+│   ├── once_cell v1.19.0
+│   ├── region v3.0.0
+│   │   ├── bitflags v1.3.2
+│   │   ├── libc v0.2.151
+│   │   └── winapi v0.3.9
+│   └── slice-pool2 v0.4.3
+├── sbx-offset v0.1.0 (/media/ssd2/vmsharedfolder/sbx-tool-main/sbx-offset)
+├── tracing v0.1.40
+│   ├── pin-project-lite v0.2.13
+│   ├── tracing-attributes v0.1.27 (proc-macro)
+│   │   ├── proc-macro2 v1.0.76 (*)
+│   │   ├── quote v1.0.35 (*)
+│   │   └── syn v2.0.48 (*)
+│   └── tracing-core v0.1.32
+│       └── once_cell v1.19.0
+├── winapi v0.3.9
+└── winapi-mon-core v0.1.0 (/media/ssd2/vmsharedfolder/sbx-tool-main/winapi-mon-main/winapi-mon-core)
+    ├── anyhow v1.0.79
+    ├── lazy_static v1.4.0
+    ├── nameof v1.2.2
+    ├── quote v1.0.35
+    │   └── proc-macro2 v1.0.76
+    │       └── unicode-ident v1.0.12
+    ├── retour v0.4.0-alpha.2 (https://github.com/Hpmason/retour-rs#19f21324) (*)
+    ├── tracing v0.1.40 (*)
+    ├── widestring v0.5.1
+    └── winapi v0.3.9
+    [dev-dependencies]
+    ├── ansi_term v0.12.1
+    │   └── winapi v0.3.9
+    └── tracing-subscriber v0.3.18
+        ├── nu-ansi-term v0.46.0
+        │   ├── overload v0.1.1
+        │   └── winapi v0.3.9
+        ├── sharded-slab v0.1.7
+        │   └── lazy_static v1.4.0
+        ├── smallvec v1.11.2
+        ├── thread_local v1.1.7
+        │   ├── cfg-if v1.0.0
+        │   └── once_cell v1.19.0
+        ├── tracing-core v0.1.32 (*)
+        └── tracing-log v0.2.0
+            ├── log v0.4.20
+            ├── once_cell v1.19.0
+            └── tracing-core v0.1.32 (*)
+
+sbx-tool-dll v0.1.0 (/media/ssd2/vmsharedfolder/sbx-tool-main/sbx-tool-dll)
+├── ansi_term v0.12.1 (*)
+├── anyhow v1.0.79
+├── detour v0.8.1
+│   ├── cfg-if v1.0.0
+│   ├── generic-array v0.14.7 (*)
+│   ├── lazy_static v1.4.0
+│   ├── libc v0.2.151
+│   ├── libudis86-sys v0.2.1
+│   │   └── libc v0.2.151
+│   │   [build-dependencies]
+│   │   └── cc v1.0.83 (*)
+│   ├── mmap-fixed v0.1.5
+│   │   ├── kernel32-sys v0.2.2
+│   │   │   └── winapi v0.2.8
+│   │   │   [build-dependencies]
+│   │   │   └── winapi-build v0.1.1
+│   │   └── winapi v0.2.8
+│   ├── region v2.2.0
+│   │   ├── bitflags v1.3.2
+│   │   ├── libc v0.2.151
+│   │   └── winapi v0.3.9
+│   └── slice-pool v0.4.1
+├── effbool v0.1.0 (/media/ssd2/vmsharedfolder/sbx-tool-main/effbool-main)
+├── ilhook v2.1.0 (*)
+├── imgui v0.10.0 (*)
+├── imgui-dx9-renderer v0.10.0
+│   ├── imgui v0.10.0 (*)
+│   └── windows v0.44.0
+│       └── windows-targets v0.42.2
+│           └── windows_i686_msvc v0.42.2
+├── imgui-impl-win32-rs v0.1.0 (/media/ssd2/vmsharedfolder/sbx-tool-main/imgui-impl-win32-rs) (*)
+├── imgui-winit-support v0.10.0
+│   ├── imgui v0.10.0 (*)
+│   └── winit v0.27.5
+│       ├── bitflags v1.3.2
+│       ├── instant v0.1.12
+│       │   └── cfg-if v1.0.0
+│       ├── log v0.4.20
+│       ├── once_cell v1.19.0
+│       ├── parking_lot v0.12.1 (*)
+│       ├── raw-window-handle v0.4.3
+│       │   └── cty v0.2.2
+│       ├── raw-window-handle v0.5.2
+│       └── windows-sys v0.36.1
+│           └── windows_i686_msvc v0.36.1
+├── lazy_static v1.4.0
+├── nameof v1.2.2
+├── parking_lot v0.12.1 (*)
+├── sbx-offset v0.1.0 (/media/ssd2/vmsharedfolder/sbx-tool-main/sbx-offset)
+├── sbx-tool-core v0.1.0 (/media/ssd2/vmsharedfolder/sbx-tool-main/sbx-tool-core) (*)
+├── tracing v0.1.40 (*)
+├── tracing-appender v0.2.3
+│   ├── crossbeam-channel v0.5.10
+│   │   ├── cfg-if v1.0.0
+│   │   └── crossbeam-utils v0.8.18
+│   │       └── cfg-if v1.0.0
+│   ├── thiserror v1.0.56 (*)
+│   ├── time v0.3.31
+│   │   ├── deranged v0.3.11
+│   │   │   └── powerfmt v0.2.0
+│   │   ├── itoa v1.0.10
+│   │   ├── powerfmt v0.2.0
+│   │   └── time-core v0.1.2
+│   └── tracing-subscriber v0.3.18 (*)
+├── tracing-subscriber v0.3.18 (*)
+├── winapi v0.3.9
+├── winapi-mon-core v0.1.0 (/media/ssd2/vmsharedfolder/sbx-tool-main/winapi-mon-main/winapi-mon-core) (*)
+└── winit v0.26.1
+    ├── bitflags v1.3.2
+    ├── instant v0.1.12 (*)
+    ├── lazy_static v1.4.0
+    ├── log v0.4.20
+    ├── parking_lot v0.11.2
+    │   ├── instant v0.1.12 (*)
+    │   ├── lock_api v0.4.11 (*)
+    │   └── parking_lot_core v0.8.6
+    │       ├── cfg-if v1.0.0
+    │       ├── instant v0.1.12 (*)
+    │       ├── smallvec v1.11.2
+    │       └── winapi v0.3.9
+    ├── raw-window-handle v0.4.3 (*)
+    └── winapi v0.3.9
+
+winapi-mon-core v0.1.0 (/media/ssd2/vmsharedfolder/sbx-tool-main/winapi-mon-main/winapi-mon-core) (*)

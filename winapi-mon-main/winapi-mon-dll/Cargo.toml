@@ -1,0 +1,21 @@
+[package]
+name = "winapi-mon-dll"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["cdylib"] 
+
+
+[dependencies]
+[target.'cfg(windows)'.dependencies]
+winapi-mon-core={path ="../winapi-mon-core"}
+ansi_term = "0.12.1"
+anyhow = "1.0.56"
+tracing = "0.1.*"
+tracing-subscriber = "0.3.*"
+tracing-appender = "0.2.*"
+winapi = { version = "0.3.*", features = ["winuser", "minwindef", "libloaderapi", "memoryapi", "consoleapi", "winnt",
+    "tlhelp32", "handleapi", "processthreadsapi", "impl-default", "errhandlingapi", "basetsd", "psapi"] }
