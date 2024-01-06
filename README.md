@@ -12,6 +12,7 @@ Thank you for the high quality libraries.
 [imgui](https://github.com/ocornut/imgui) by [ocornut](https://github.com/ocornut) and its [Rust binding](https://github.com/imgui-rs/imgui-rs)  
 [ilhook-rs](https://github.com/regomne/ilhook-rs) by [regomne](https://github.com/regomne)  
 [imgui-impl-win32-rs](https://github.com/super-continent/imgui-impl-win32-rs) by [super-continent](https://github.com/super-continent)  
+[detour](https://github.com/darfink/detour-rs) and [retour](https://github.com/Hpmason/retour-rs)
 
 # Download
 [Debug dll](https://github.com/nisetynet/twinkle-crusaders-sbx-tool/raw/main/dlls/sbx_tool_dll_debug.dll)  
@@ -28,7 +29,7 @@ Release dll comes with no debug console and better runtime performance and small
 
 ご自分でインジェクトできる方はインジェクトしても大丈夫です。(この方法でやるとデバッグコンソールが付いてきてしまうので鬱陶しいかもしれません。)  
 
-[dinput8.dll](https://github.com/nisetynet/twinkle-crusaders-sbx-tool/raw/main/experimental/dinput8.dll) ←をダウンロードします。  
+[dinput8.dll](https://github.com/nisetynet/twinkle-crusaders-sbx-tool/raw/master/experimental/dinput8.dll) ←をダウンロードします。  
 
 ファイル名を変更すると動作しなくなりますので、そのままSBXがインストールされているフォルダに配置してください。  
 
@@ -80,7 +81,7 @@ nightly rustの変更でdetourライブラリが使えなくなっているの�
 その他ビルドエラーを解決。
 
 #### 2022/8/4
-dinput8 hook.
+dinput8 hookを利用して導入を簡略化した。
 
 #### 2022/8/1
 Rust's main branch renamed and relocated std::lazy stuffs.
